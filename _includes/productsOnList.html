@@ -1,0 +1,19 @@
+
+<section id="sec1">
+  {% for post in site.posts %}
+<div id="item">
+    <a href="productView.html"><img
+      id="mainImg"
+      src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    /></a>
+    <div id="para">
+      <a href="productView.html"><h3>{{ post.heading }}</h3></a>
+      <p>
+        {{ post.description }}
+      </p>
+      <a id="productView" href="productView.html">View Product</a>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+

@@ -1,0 +1,11 @@
+---
+post-id: 2
+layout: productList
+heading: CBR600RR
+img: 3.png
+category: Web Development
+price: "150"
+description: "The formula for the CBR600RR was simple; take Honda’s ultimate super sports champion - and make it better in every way. Give it more power, more torque and more speed. Give it a more responsive suspension for smoother handling and control. Refine the Dual-Stage Fuel Injection system to give more power throughout the rpm-range. Give Honda’s old favourite a new spin.
+
+Now that we’ve finished with her, we think you’ll want to give the CBR600RR a spin, too. We’ve married tradition. "
+---
