@@ -18,6 +18,14 @@ section#sec2Desk {
   display: none;
 }
 
+input#redButton {
+  background-color: red;
+}
+
+h3#loginHeader {
+  display: block;
+}
+
 /*------------------------------------------------------------------------------------------------------------*/
 nav#mobileNav {
   position: fixed;
@@ -402,11 +410,19 @@ input[type="submit"]:hover {
   border-radius: 0.6em;
 }
 
+form#login h3 {
+  display: none;
+}
+
 /*---------------------- For Desktops ----------------------------------------------*/
 @media only screen and (min-width: 1000px) {
   nav#mobileNav {
     display: none;
   }
+  
+form#login h3 {
+  display: block;
+}
 
   div#homeText {
     display: none;
@@ -555,6 +571,7 @@ input[type="submit"]:hover {
     margin-top: 0;
   }
 
+
   .sec2Div img {
     margin: 0 auto;
     margin-top: 1.5em;
@@ -627,7 +644,6 @@ form#login {
   width: 30em; 
   margin-bottom: 35vh; 
 }
-
 
   div#navLogo {
     text-align: center;
